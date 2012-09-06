@@ -14,6 +14,6 @@ public class AppTest {
 		String duration = app.from("9, Rue de la Croix Faubin, 75011, Paris")
 				.to("63, bd de Brandebourg, 94200, Ivry-sur-Seine").duration();
 		String msg = String.format("Incorrect duration [%s]", duration);
-		Assert.assertTrue(msg, duration.matches("[0-9]* mn"));
+		Assert.assertTrue(msg, duration.matches("[0-9]* min"));
 	}
 }

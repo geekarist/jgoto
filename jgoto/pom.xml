@@ -27,4 +27,17 @@
 			<version>4.10</version>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<configuration>
+					<downloadSources>true</downloadSources>
+					<downloadJavadoc>true</downloadJavadoc>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
