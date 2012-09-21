@@ -1,5 +1,5 @@
 TODO:
-- Init app with maven quickstart application
-- Implement first unit test: get duration for going from one address to another in paris.
+Init app with maven quickstart application
+Implement first unit test: get duration for going from one address to another in paris.
 
 DONE:
